@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning 
+# Content Based Recommendation
 ***
 ## Project Overview
 
@@ -55,7 +55,7 @@ The data preparation process for this project is divided into several stages:
 
 ## Modeling
 ***
-### TF-IDF Vektorisasi
+### TF-IDF Vectorization
 At this stage, the recommendation system will be built based on Cuisine Type, City, Country, and the Weighted Ratings of restaurants. This technique is used in recommendation systems to find the representation of important features for each restaurant.
 
 ### Cosine Similarity
@@ -69,7 +69,7 @@ Where:
 - $||A||_2$ represents the Euclidean length of vector A.
 - $||B||_2$ represents the Euclidean length of vector B.
 
-## Evaluasi
+## Evaluation
 ***
 At this stage, Precision will be used to evaluate the recommendation results. Precision can be defined as follows:
 
